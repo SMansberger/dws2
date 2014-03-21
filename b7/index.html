@@ -1,0 +1,130 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B7: CSS Forms</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv/src/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body>
+    
+    <div class="header">
+        <h1>Employee Satisfaction (ES) Survey</h1>
+        <h5>Please fill out this brief survey. We look forward to your feedback.</h5>
+    </div>
+
+<!--Start Form-->
+<div class="maincont">
+    
+    <form>
+    <fieldset>
+        <div class="formname">
+            <div id="firstnamefield">
+              <label>First Name:</label>
+              <input type="text" placeholder="First Name" />
+            </div>
+    
+            <div id="lastnamefield">
+              <label>Last Name:</label>
+              <input type="text" placeholder="Last Name" />
+            </div>
+        </div>
+        </fieldset>
+        <fieldset>
+        <div class="formaddress">
+            <div class="partone">
+                <div id="addressone">
+                  <label>Address Line 1:</label>
+                  <input type="text" placeholder="111 Oak St." />
+                </div>
+                <div id="addresstwo">
+                    <label>Address Line 2:</label>
+                    <input type="text" placeholder="112 Oak St." />
+                </div>
+            </div>
+            
+            <div class="parttwo">
+                <div id="addressthree">
+                    <label>City:</label>
+                    <input type="text" placeholder="Mayfield" />
+                </div>
+                <div id="addressfour">
+                    <label>Zip Code:</label>
+                    <input type="text" placeholder="26111" />
+                </div>
+            </div>
+        </div> <!--End formaddress-->
+        </fieldset>
+        <fieldset id="colorset">
+        <div id="color">
+            <label>Favorite Color</label>
+            <input type="text" placeholder="Red" />
+        </div>
+        <div id="color">
+            <label>Please Us Why This Color is Your Favorite:</label>
+            <input type="text" placeholder="I like this color because.." maxlength="30" size="32" />
+        </div>
+    
+        <div class="birthday">
+            <label>When Were You Born?</label>
+            <input type="month" name="birthdaymonth">
+        </div>
+        </fieldset>
+        <fieldset>
+            <div class="worktime">
+              <label id="workquest">How Long Have You Worked For Us?</label>
+              <fieldset>
+              <input type="radio" name="6months" value="sixmonths" id="sixMonths">
+                <label id="sixfield" for="sixMonths">1-6 Months</label>
+                </fieldset>
+                <fieldset>
+              <input type="radio" name="12months" value="twelvemonths" id="twelveMonths">
+                <label id="twelvefield" for="twelveMonths">6 Months - 1 Year</label>
+                </fieldset>
+                <fieldset>
+              <input type="radio" name="36months" value="thirtysixmonths" id="thirtyMonths">
+                <label id="thirtyfield" for="thirtyMonths">1 - 3 Years</label>
+                </fieldset>
+                <fieldset>
+              <input type="radio" name="72months" value="seventytwomonths" id="seventyMonths">
+                <label id="seventyfield" for="seventyMonths">3+ years</label>
+                </fieldset>
+            </div>
+        </fieldset>
+        <fieldset>
+        <div class="satisfactionboxes">
+          <label id="satisfactionheader">Do You Like Working For Us?</label>
+          <fieldset>
+          <input id="checkbox1" type="checkbox"><label id="yeslabel" for="yes">Yes</label>
+          <input id="checkbox2" type="checkbox"><label id="nolabel" for="no">No</label>
+          </fieldset>
+        </div>
+        
+        <div class="ratescale">
+            <label>How would you rate your time with this company?</label>
+            <input type="range" name="points" min="1" max="10">
+        </div>
+        <div class="additional">
+              <label>Additional Comments</label>
+              <textarea placeholder="Open comment section" rows="4" cols="45"></textarea>
+        </div>
+        </fieldset>
+    </form>
+    
+<div class="footer">
+	<p>Thank you for your participation</p>
+    <p>ACME Industries</p>
+</div>
+</div>
+
+
+<!-- End Form -->
+      
+    </div>
+  </body>
+</html>

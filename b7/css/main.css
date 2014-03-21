@@ -1,0 +1,84 @@
+.maincont{
+	position:relative;
+	width:400px;
+}
+
+label { 
+	display:inline-block; 
+	width:150px; 
+	text-align:right; 
+}
+
+
+.formaddress{
+	position:relative;
+}
+
+.worktime{
+	text-align:center;
+}
+
+#workquest{
+-webkit-padding-before: 0.35em;
+-webkit-padding-start: 0.75em;
+-webkit-padding-end: 0.75em;
+-webkit-padding-after: 0.625em;
+min-width: -webkit-min-content;
+	width:250px; !important;
+}
+
+#sixfield, #twelvefield, #thirtyfield, #seventyfield{
+	width:150px; !important;
+	text-align:center;
+}
+
+.satisfactionboxes {
+	text-align:center;
+}
+
+#satisfactionheader{
+-webkit-padding-before: 0.35em;
+-webkit-padding-start: 0.75em;
+-webkit-padding-end: 0.75em;
+-webkit-padding-after: 0.625em;
+min-width: -webkit-min-content;
+	width:200px;
+}
+
+#yeslabel, #nolabel{
+	width:50px; !important;
+	padding-right:20px;
+}
+
+.footer {
+	float:right;
+}
+
+@media all and (min-width: 650px){
+	
+	.maincont{
+	position:relative;
+	width:620px;
+	}
+		
+	.formaddress .partone{
+		left:15px;
+	}
+	
+	.formaddress .parttwo{
+		position:absolute;
+		top: 0px;
+		left:255px;
+	}	
+}
+
+@media all and (max-width: 400px) {
+	.maincont{
+	position:relative;
+	width:350px;
+	}
+	
+	#colorset{
+		text-align:center;
+	}
+}
