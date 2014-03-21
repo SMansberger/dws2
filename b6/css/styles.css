@@ -1,14 +1,64 @@
-h1 {
-	position:fixed
-}
-
 #Content{
 	position:relative;
+	height:500px;
+	width:750px;
+	border-style:solid;
+	border-color:#000;
+	background-color:#0FF;
 }
 
-Content#sectionone{
+#sectionone{
 	position:absolute;
 	top: 5px;
-	left: 5px;
+	left: 20px;
+	padding-right:10px;
 }
-	
+
+#sectiontwo{
+	position:absolute;
+	top: 160px;
+	left: 20px;
+	padding-right:10px;
+}
+
+#sidedata{
+	position:relative;
+	top: 15px;
+	height:1000px;
+	width:250px;
+	border-style:solid;
+	border-color:#000;
+	background-color:#3C0;
+	padding: 10px 5px 5px 5px;
+}
+
+@media all and (max-width: 790px) {
+	#sidedata{
+		width:750px;
+	}
+}
+
+@media all and (min-width: 791px) and (max-width: 1060px){
+	#sidedata{
+		width: 741px;
+		height: 480px;
+		padding-bottom: 15px;
+	}
+	#dataone{
+		float:left;
+		padding-left:15px;
+	}
+	#datatwo{
+		float:right;
+		padding-right:15px;
+	}
+}
+
+@media all and (min-width: 1061px){
+	#sidedata{
+		position:absolute;
+		height: 950px;
+		top: 8px;
+		left: 775px;
+	}
+}
