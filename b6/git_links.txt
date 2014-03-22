@@ -1,2 +1,2 @@
-https://github.com/SMansberger/dws2/tree/gh-pages/b6
-https://smansberger.github.io/dws2/b6/index.html
+https://github.com/SMansberger/dws2/tree/gh-pages/b7
+https://smansberger.github.io/dws2/b7/index.html
