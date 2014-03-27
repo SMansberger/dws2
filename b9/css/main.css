@@ -1,8 +1,8 @@
-<!--Foundation allows the page to resize as needed for smaller devices.-->
-<!--I was satisfied with this resizing as needed for various sized devices-->
+/*Foundation allows the page to resize as needed for smaller devices
+I was satisfied with this resizing as needed for various sized devices*/
 
 #headerimgcont{
-	text-align:center; }
+	text-align:center}
 
 #stickyMenu {
 	z-index:999;
@@ -66,9 +66,7 @@
 iframe{
 	padding-top: 1em; }
 	
-<!--Footer CSS-->
-.footer-left{
-	text-align:center;}
+/*Footer CSS*/
 
 .footer-left, .footer-center, .footer-right{
 	text-align:center !important; }
@@ -78,7 +76,7 @@ iframe{
 	padding-right:5px;
 	font-size:0.6em; }         
 	
-<!--Foundation CSS Below-->
+/*Foundation CSS Below*/
 
 meta.foundation-version {
   font-family: "/5.2.1/"; }
